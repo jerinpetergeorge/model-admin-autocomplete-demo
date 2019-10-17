@@ -35,6 +35,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django_extensions',
     'app_one'
 ]
 
@@ -114,4 +115,5 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-SILENCED_SYSTEM_CHECKS = ["admin.E039"]
+# django-model-admin-autocomplete settings
+SILENCED_SYSTEM_CHECKS = ["admin.E040"]
