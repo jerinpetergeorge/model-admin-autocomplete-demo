@@ -116,4 +116,4 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 # django-model-admin-autocomplete settings
-SILENCED_SYSTEM_CHECKS = ["admin.E040"]
+SILENCED_SYSTEM_CHECKS = ["admin.E040", "admin.E039"]
