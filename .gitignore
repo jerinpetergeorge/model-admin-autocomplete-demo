@@ -2,4 +2,5 @@
 *.pyc
 *.ipynb
 *.csv
+*.sqlite3
 model_admin_autocomplete/
